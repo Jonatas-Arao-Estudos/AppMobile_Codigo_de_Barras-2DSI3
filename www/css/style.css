@@ -1,2 +1,7 @@
 /**/
-
+a.brand-logo{
+  font-size: 1.8rem;
+}
+.nav-wrapper{
+  background-image: linear-gradient(to right, #4db6ac , #004d40);
+}
