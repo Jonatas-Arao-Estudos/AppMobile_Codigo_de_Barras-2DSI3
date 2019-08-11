@@ -20,12 +20,14 @@
 </head>
 
 <body>
+  <!-- Navbar -->
   <nav class="app-navbar">
     <div class="nav-wrapper">
       <a href="#" class="brand-logo center">Barcode Scanner</a>
     </div>
   </nav>
 
+<!-- Dashboard -->
   <section class="app">
     <div class="row center">
       <button class="btn-floating btn-large waves-effect waves-light pulse teal darken-4 pagInicial" id="scan"><i
@@ -33,115 +35,146 @@
     </div>
   </section>
 
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/280720550.jpg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">iPad Mini Wi-Fi 64Gb - Cinza Espacial<i
-          class="material-icons right">more_vert</i></span>
-      <p>R$ 3.499,00</p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">iPad Mini Wi-Fi 64Gb - Cinza Espacial<i
-          class="material-icons right">close</i></span>
-      <ul class="collection">
-        <li class="collection-item">Processador A12 Bionic<br> com arquitetura de 64 bits<br> Neural Engine
-          Coprocessador<br> M12 integrado</li>
-        <li class="collection-item">Sistema operacional iOS</li>
-        <li class="collection-item">Tamanho da tela 7.9"</li>
-        <li class="collection-item">Tecnologia Wi-Fi</li>
-        <li class="collection-item"><b>Resolução da câmera</b> <br>Câmera traseira: 8MP <br> Câmera frontal: 7MP</li>
-        <li class="collection-item">GPS <span class="badge blue">Sim</span></li>
-        <li class="collection-item">Grava vídeos <span class="badge blue">Sim</span></li>
-        <li class="collection-item">Câmera traseira<span class="badge blue">Sim</span></li>
-        <li class="collection-item">Câmera frontal<span class="badge blue">Sim</span></li>
-        <li class="collection-item">Memória Flash 64GB</li>
-        <li class="collection-item">Funciona como celular<span class="badge red">Não</span></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/989895555.jpg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Samsung Galaxy J8 Dual Chip 4g 64gb Tela 6<i
-          class="material-icons right">more_vert</i></span>
-      <p>R$ 1.888,00</p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Samsung Galaxy J8 Dual Chip 4g 64gb Tela 6<i
-          class="material-icons right">close</i></span>
-      <ul class="collection">
-        <li class="collection-item">Velocidade do Processador: 1.8GHz</li>
-        <li class="collection-item">Tipo de Processador: Octa Core</li>
-        <li class="collection-item">Tamanho (Tela Principal): 153.6mm (6.0")</li>
-        <li class="collection-item">Resolução (Tela Principal):1480 x 720 (HD+)</li>
-        <li class="collection-item"><b>Câmera Resolução</b> <br> Câmera Traseira: 16.0 MP + 5.0 MP</li>
-        <li class="collection-item">Memória RAM(GB): 4 GB</li>
-        <li class="collection-item">Memória Total Interna (GB) - 64 GB*</li>
-        <li class="collection-item">Memória Disponível (GB) - 50.6 GB</li>
-      </ul>
+  <!-- Modais -->
+  <div id="280720550" class="modal modal-produtos">
+    <div class="modal-content">
+      <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/280720550.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">iPad Mini Wi-Fi 64Gb - Cinza Espacial<i
+                class="material-icons right">more_vert</i></span>
+            <p>R$ 3.499,00</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">iPad Mini Wi-Fi 64Gb - Cinza Espacial<i
+                class="material-icons right">close</i></span>
+            <ul class="collection">
+              <li class="collection-item">Processador A12 Bionic<br> com arquitetura de 64 bits<br> Neural Engine
+                Coprocessador<br> M12 integrado</li>
+              <li class="collection-item">Sistema operacional iOS</li>
+              <li class="collection-item">Tamanho da tela 7.9"</li>
+              <li class="collection-item">Tecnologia Wi-Fi</li>
+              <li class="collection-item"><b>Resolução da câmera</b> <br>Câmera traseira: 8MP <br> Câmera frontal: 7MP</li>
+              <li class="collection-item">GPS</li>
+              <li class="collection-item">Grava vídeos : <i class="material-icons">check</i></li>
+              <li class="collection-item">Câmera traseira: <i class="material-icons">check</i></li>
+              <li class="collection-item">Câmera frontal: <i class="material-icons">check</i></li>
+              <li class="collection-item">Memória Flash 64GB</li>
+              <li class="collection-item">Funciona como celular: <i class="material-icons">cancel</i></li>
+            </ul>
+          </div>
+        </div>
     </div>
   </div>
 
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/85236987.jpg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Motorola One XT1941 Branco 64GB<i
-          class="material-icons right">more_vert</i></span>
-      <p>R$ 1.034,10</p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Motorola One XT1941 Branco 64GB<i
-          class="material-icons right">close</i></span>
-      <ul class="collection">
-        <li class="collection-item">Sistema Operacional Android 8.1 Oreo</li>
-        <li class="collection-item">Processador Qualcomm Snapdragon 625 (MSM8953) Octa-Core de 2.0 GHz</li>
-        <li class="collection-item">RAM 4GB</li>
-        <li class="collection-item">Tecnologia GSM, 3G e 4G</li>
-        <li class="collection-item">Memória interna 64 GB </li>
-        <li class="collection-item">Cor Branco</li>
-        <li class="collection-item"><b>Características Gerais</b><br>
-          -	Tela Max Vision e design ao máximo<br>
-          - Câmera dupla e armazenamento ilimitado<br>
-          -	Android One: primeiro do Brasil, atualizado e seguro<br>
-          -	Carregamento ultrarrápido TurboPower<br>
-          -	Últimas inovações do Google incorporadas<br>
-          -	Leitor Biométrico (Impressão Digital)
-        </li>
-      </ul>
+  <div id="989895555" class="modal modal-produtos">
+    <div class="modal-content">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img/989895555.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Samsung Galaxy J8 Dual Chip 4g 64gb Tela 6<i
+              class="material-icons right">more_vert</i></span>
+          <p>R$ 1.888,00</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Samsung Galaxy J8 Dual Chip 4g 64gb Tela 6<i
+              class="material-icons right">close</i></span>
+          <ul class="collection">
+            <li class="collection-item">Velocidade do Processador: 1.8GHz</li>
+            <li class="collection-item">Tipo de Processador: Octa Core</li>
+            <li class="collection-item">Tamanho (Tela Principal): 153.6mm (6.0")</li>
+            <li class="collection-item">Resolução (Tela Principal):1480 x 720 (HD+)</li>
+            <li class="collection-item"><b>Câmera Resolução</b> <br> Câmera Traseira: 16.0 MP + 5.0 MP</li>
+            <li class="collection-item">Memória RAM(GB): 4 GB</li>
+            <li class="collection-item">Memória Total Interna (GB) - 64 GB*</li>
+            <li class="collection-item">Memória Disponível (GB) - 50.6 GB</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/85369877444.jpg">
+  <div id="85236987" class="modal modal-produtos">
+    <div class="modal-content">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img/85236987.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Motorola One XT1941 Branco 64GB<i
+              class="material-icons right">more_vert</i></span>
+          <p>R$ 1.034,10</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Motorola One XT1941 Branco 64GB<i
+              class="material-icons right">close</i></span>
+          <ul class="collection">
+            <li class="collection-item">Sistema Operacional Android 8.1 Oreo</li>
+            <li class="collection-item">Processador Qualcomm Snapdragon 625 (MSM8953) Octa-Core de 2.0 GHz</li>
+            <li class="collection-item">RAM 4GB</li>
+            <li class="collection-item">Tecnologia GSM, 3G e 4G</li>
+            <li class="collection-item">Memória interna 64 GB </li>
+            <li class="collection-item">Cor Branco</li>
+            <li class="collection-item"><b>Características Gerais</b><br>
+              -	Tela Max Vision e design ao máximo<br>
+              - Câmera dupla e armazenamento ilimitado<br>
+              -	Android One: primeiro do Brasil, atualizado e seguro<br>
+              -	Carregamento ultrarrápido TurboPower<br>
+              -	Últimas inovações do Google incorporadas<br>
+              -	Leitor Biométrico (Impressão Digital)
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Asus Zenfone Max Pro M1<i
-          class="material-icons right">more_vert</i></span>
-      <p>R$ 1.199,00</p>
+  </div>
+
+  <div id="85369877444" class="modal modal-produtos">
+    <div class="modal-content">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img/85369877444.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Asus Zenfone Max Pro M1<i
+              class="material-icons right">more_vert</i></span>
+          <p>R$ 1.199,00</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Asus Zenfone Max Pro M1<i
+              class="material-icons right">close</i></span>
+          <ul class="collection">
+            <li class="collection-item">VProcessador: Qualcomm Snapdragon SDM636 1,8 GHz<br> 2 Mb Cache </li>
+            <li class="collection-item">Sistema Operacional: Android 8.1 Oreo</li>
+            <li class="collection-item">Memória Ram: 4 Gb</li>
+            <li class="collection-item">Memória Interna: 64 Gb</li>
+            <li class="collection-item">Memória Expansiva: 2TB Sd</li>
+            <li class="collection-item">Tela: 6,0" Led Backlight Ips panel (1080x2160)</li>
+            <li class="collection-item">Tipo de Chip: Nano <br> Dual Chip: <i class="material-icons">check</i></li>
+            <li class="collection-item">Conectividade: 3G; 4G; Wi-fi</li>
+            <li class="collection-item">Câmera Frontal: 8MP</li>
+            <li class="collection-item">Câmera Traseira: 16+5MP</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Asus Zenfone Max Pro M1<i
-          class="material-icons right">close</i></span>
-      <ul class="collection">
-        <li class="collection-item">VProcessador: Qualcomm Snapdragon SDM636 1,8 GHz<br> 2 Mb Cache </li>
-        <li class="collection-item">Sistema Operacional: Android 8.1 Oreo</li>
-        <li class="collection-item">Memória Ram: 4 Gb</li>
-        <li class="collection-item">Memória Interna: 64 Gb</li>
-        <li class="collection-item">Memória Expansiva: 2TB Sd</li>
-        <li class="collection-item">Tela: 6,0" Led Backlight Ips panel (1080x2160)</li>
-        <li class="collection-item">Tipo de Chip: Nano - Dual Chip<span class="badge blue">Sim</span></li>
-        <li class="collection-item">Conectividade: 3G; 4G; Wi-fi</li>
-        <li class="collection-item">Câmera Frontal: 8MP</li>
-        <li class="collection-item">Câmera Traseira: 16+5MP</li>
-      </ul>
+  </div>
+
+  <div id="cancelado" class="modal">
+      <div class="modal-content">
+        <h4 class="center-align">Escaneamento Cancelado</h4>
+        <p>Clique fora da caixa para continuar escaneando</p>
+      </div>
+  </div>
+
+  <div id="invalido" class="modal">
+    <div class="modal-content">
+      <h4 class="center-align">Código Inválido</h4>
+      <p>Clique fora da caixa para continuar escaneando</p>
     </div>
   </div>
 

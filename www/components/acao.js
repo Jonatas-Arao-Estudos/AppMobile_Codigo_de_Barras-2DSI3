@@ -3,7 +3,29 @@
 $(document).on("click","#scan",function(){
   cordova.plugins.barcodeScanner.scan(
         function (result) {
-          alert("Scaneado");
+            $('.modal').modal();
+            if(result.text == '280720550')
+            {
+            $('#280720550').modal('open');
+            }
+            else if(result.text == '989895555')
+            {
+            $('#989895555').modal('open');
+            }
+            else if(result.text == '85236987')
+            {
+            $('#85236987').modal('open');
+            }
+            else if(result.text == '85369877444')
+            {
+            $('#85369877444').modal('open');
+            }
+            else if(result.cancelled){
+            $('#cancelado').modal('open');
+            }
+            else{
+            $('#invalido').modal('open');
+            }
         },
         function (error) {
             alert("Scanning failed: " + error);

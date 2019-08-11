@@ -11,3 +11,7 @@ a.brand-logo{
 .badge.blue,.badge.red{
   color: white;
 }
+.modal.modal-produtos {
+  width: 75% !important ;
+  height: 90% !important ; 
+ }
