@@ -1,7 +1,10 @@
 /**/
 a.brand-logo{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
-.nav-wrapper{
+.app-navbar{
   background-image: linear-gradient(to right, #4db6ac , #004d40);
+}
+.pagInicial#scan{
+  margin-top: 10vh;
 }
